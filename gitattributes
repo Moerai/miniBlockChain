@@ -1,2 +1,3 @@
 blockChain/bin/* linguist-vendored
 blockChain/.settings/* linguist-vendored
+.metadata linguist-vendored
