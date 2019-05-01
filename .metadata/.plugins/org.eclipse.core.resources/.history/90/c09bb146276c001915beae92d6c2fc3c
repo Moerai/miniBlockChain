@@ -5,7 +5,8 @@ import util.Util;
 public class BlockChainStarter {
 
 	public static void main(String[] args) {
-		
+		// TODO Auto-generated method stub
+		System.out.println(Util.getHash("SnowBall effect"));
 		//proof-of-work 작업증명
 		int nonce = 0;
 		while(true) {
@@ -14,7 +15,6 @@ public class BlockChainStarter {
 				System.out.println("헤시 값 : " + Util.getHash(nonce + ""));
 				break;
 			}
-			nonce++;
 		}
 	}
 

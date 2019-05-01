@@ -14,7 +14,6 @@ public class BlockChainStarter {
 				System.out.println("헤시 값 : " + Util.getHash(nonce + ""));
 				break;
 			}
-			nonce++;
 		}
 	}
 
